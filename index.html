@@ -1,9 +1,31 @@
 <html>
-  <head> 
+  <head> </head>
+  <style>
+    #grand-parent {
+      width: 800px;
+      border: 2px solid red;
+      padding: 16px;
+    }
 
-  </head>
+    #parent {
+      width: 600px;
+      border: 2px solid blue;
+      margin: 0 auto;
+      padding: 8px;
+    }
+    #child {
+      width: 400px;
+      border: 2px solid blue;
+      margin: 0 auto;
+      padding: 4px;
+    }
+  </style>
   <body>
-    <button id="button">Click</h1>
-    <script src="./JavaScript/index.js"></script>
+    <div id="grand-parent">
+      <div id="parent">
+        <div id="child"></div>
+      </div>
+    </div>
+    <script src="./JavaScript/event-propagation/index.js"></script>
   </body>
 </html>

@@ -27,8 +27,8 @@ const c2=new Counter()
 c1.count=100
 c2.count=2000
 delete c2.count
-console.log(c1.count);
-console.log(c2.count);
+console.log("c1.count",c1.count);
+console.log("c2.count",c2.count);
 
 //this is data hiding
 function Counter1() {
@@ -47,8 +47,7 @@ function Counter1() {
 const c11 = new Counter1();
 const c22 = new Counter1();
 c11.cou="COU";
-console.log(c11.cou);
-
+console.log("c11.cou",c11.cou);
 
 c11.increment(); // 1
 c11.increment(); // 2
@@ -69,3 +68,4 @@ const h1=new Hello()
 h.inc()
 h.inc()
 h1.inc()
+console.log(h.count);

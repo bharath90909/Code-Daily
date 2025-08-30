@@ -45,7 +45,7 @@ createOrder(["bat"])
 
 // promise();
 
-Promise.reject("p1 rejected")
+Promise.resolve("p1 resolved")
   .then((p1Msg) => {
     console.log(p1Msg);
     return Promise.reject("P2 rejected");

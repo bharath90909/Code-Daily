@@ -1,0 +1,13 @@
+.grid-container {
+  width: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 20px;
+ border: 1px solid red;
+}
+
+.grid-item {
+  border: 1px solid black;
+}
+

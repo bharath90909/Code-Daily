@@ -1,9 +1,9 @@
 
 import Accordion from "./Accordion/Accordion";
+import FormValidation from "./form-validation/FormValidation";
 import GridLights from "./grid-lights/GridLights";
 function App() {
-  // return <Accordion />;
-  return <GridLights/>
+  return <FormValidation/>
 }
 
 export default App;
